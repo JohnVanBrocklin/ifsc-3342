@@ -85,6 +85,7 @@ body {
 
 .assignment-container:hover {
     transform: perspective(500px) translateZ(100px);
+    border: 1 1px #00ffff;
 }
 
 .wrap {
