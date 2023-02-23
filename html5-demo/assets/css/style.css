@@ -41,24 +41,27 @@ main {
 header.primary,
 footer.primary {
   width: 916px;
-  margin: 20px;
+  /* margin: 20px; */
+  margin: 2.183%;
   float: left;
-  padding: 20px;
+  padding: 2.183%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 #blog {
-  width: 604px;
+  /* width: 604px; */
+  width: 63.179%;
   float: left;
-  margin-left: 20px;
-  padding: 20px;
+  margin-left: 2.300%;
+  padding: 2.300%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 aside {
-  width: 292px;
+  /* width: 292px; */
+  width: 30.543%;
   float: left;
-  margin-left: 20px;
-  padding: 20px;
+  margin-left: 2.200%;
+  padding: 2.200%;
   background-color: rgba(0, 0, 0, 0.3);
 }
