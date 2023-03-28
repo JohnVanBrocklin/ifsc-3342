@@ -1,0 +1,11 @@
+.flex {
+    width: 100%;
+    min-width: 700px;
+    max-width: 1500px;
+}
+
+.flex-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
