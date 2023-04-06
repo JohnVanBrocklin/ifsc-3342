@@ -1,0 +1,30 @@
+$typeface: 'Arial', sans-serif;
+$primary-color: darkgray;
+$banner-color: bisque;
+$bio-color: rgb(128, 128, 128);
+$price-color: white;
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+section {
+    max-width:80vw;
+    display: flex;
+    background: $background-color;
+   
+  
+    article {
+      padding: 1em;
+      flex-grow: 1;
+      background-color: $banner-color;
+
+
+    }
+}
