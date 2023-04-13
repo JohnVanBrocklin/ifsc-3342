@@ -1,8 +1,7 @@
 $typeface: 'Arial', sans-serif;
 $primary-color: darkgray;
 $banner-color: bisque;
-$bio-color: rgb(128, 128, 128);
-$price-color: white;
+$bio-color: rgb(41, 41, 41);
 
 html {
     box-sizing: border-box;
@@ -14,17 +13,23 @@ html {
     box-sizing: inherit;
 }
 
-section {
-    max-width:80vw;
+header.primary {
+    background-color: $primary-color;
+    width: 100%;
+    height: 500px;
     display: flex;
-    background: $background-color;
-   
-  
-    article {
-      padding: 1em;
-      flex-grow: 1;
-      background-color: $banner-color;
+}
 
+.banner {
+    background-color: $banner-color;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    }
+.bio {
+    color: $bio-color;
+    font-family: $typeface;
+    text-align: center;
 }
