@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -90,4 +91,14 @@ body {
 
 .wrap {
     float: left;
+}
+
+.n-complete {
+    opacity: 0.3;
+}
+
+.t-n-complete {
+    background-color: #808080;
+    padding: 10px;
+    border-radius: 10px;
 }
