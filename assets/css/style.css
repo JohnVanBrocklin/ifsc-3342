@@ -70,6 +70,7 @@ body {
     background-color: rgba(219, 219, 219, 0.1);
     border-radius: 20px;
     margin: 75px 88px;
+    transition: 0.3s ease-out;
 }
 
 .box {
@@ -87,6 +88,7 @@ body {
 .assignment-container:hover {
     transform: perspective(500px) translateZ(100px);
     border: 1 1px #00ffff;
+    transition: 0.3s ease-in;
 }
 
 .wrap {
